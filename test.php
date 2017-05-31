@@ -47,7 +47,7 @@ class test2 extends WebSmartObject
 		$stmt->execute();
 		
 		$row = $stmt->fetchAll();
-
+		//test
 		require 'text.view.php';
 	}
 }
